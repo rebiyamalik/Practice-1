@@ -1,0 +1,151 @@
+/* -----------------------
+   Global Styles & Reset
+------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* -----------------------
+   Page-Specific Backgrounds
+------------------------ */
+body.home-page {
+  background-image: url('images/home.jpeg');
+}
+
+body.services-page {
+  background-image: url('images/services.jpeg');
+}
+
+body.loans-page {
+  background-image: url('images/loans.jpeg');
+}
+
+body.about-page {
+  background-image: url('images/about.jpeg');
+}
+
+body.contact-page {
+  background-image: url('images/contact.jpeg');
+}
+
+/* -----------------------
+   Header & Navigation
+------------------------ */
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #00cfff;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00cfff;
+}
+
+/* -----------------------
+   Shared Page Box Layout
+------------------------ */
+.page, .form, .accounts, .container {
+  background-color: rgba(0, 30, 60, 0.85);
+  color: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* -----------------------
+   Inputs and Buttons
+------------------------ */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+button, .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #0056b3;
+}
+
+/* -----------------------
+   Page Headings
+------------------------ */
+h1, h2, h3 {
+  color: #00cfff;
+  margin-bottom: 20px;
+}
+
+.page h2, .accounts h3 {
+  font-size: 1.5rem;
+}
+
+/* -----------------------
+   Account Summary List
+------------------------ */
+.accounts ul {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 20px;
+  color: #e0f7fa;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+/* -----------------------
+   Footer
+------------------------ */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
